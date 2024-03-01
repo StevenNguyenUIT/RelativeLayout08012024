@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orange"
+        android:textSize="40sp"
+        android:background="#D0A342"
+        android:layout_centerInParent="true"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/text_view_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_view_11"
+        android:layout_alignStart="@id/text_view_11"
+        android:layout_centerInParent="true"
+        android:background="#4385E9"
+        android:text="Blue"
+        android:textColor="#ffff"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/text_view_33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:textSize="40sp"
+        android:background="#8BC34A"
+        android:layout_above="@+id/text_view_22"
+        android:layout_alignStart="@id/text_view_22"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/text_view_44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:textSize="40sp"
+        android:background="#f20"
+        android:layout_above="@+id/text_view_33"
+        android:layout_alignStart="@id/text_view_33"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/text_view_55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gray"
+        android:textSize="40sp"
+        android:background="#969294"
+        android:layout_below="@+id/text_view_11"
+        android:layout_alignStart="@id/text_view_11"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/text_view_66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pink"
+        android:textSize="40sp"
+        android:background="#D451B9"
+        android:layout_below="@+id/text_view_55"
+        android:layout_alignStart="@id/text_view_55"
+        android:textColor="#ffff"/>
+
+
+
+</RelativeLayout>
