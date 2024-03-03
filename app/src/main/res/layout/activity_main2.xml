@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/text_view_one"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#f20"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_two"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#2A9443"
+        android:gravity="center"
+        android:layout_below="@id/text_view_one"
+        android:layout_toEndOf="@id/text_view_one"
+        android:text="2"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_three"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#B6AA31"
+        android:gravity="center"
+        android:layout_below="@id/text_view_two"
+        android:layout_toEndOf="@id/text_view_two"
+        android:text="3"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_four"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#95166D"
+        android:gravity="center"
+        android:layout_below="@id/text_view_three"
+        android:layout_toEndOf="@id/text_view_three"
+        android:text="4"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_five"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#8D635C"
+        android:gravity="center"
+        android:layout_below="@id/text_view_four"
+        android:layout_toStartOf="@id/text_view_four"
+        android:text="5"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_six"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#936A30"
+        android:gravity="center"
+        android:layout_below="@id/text_view_five"
+        android:layout_toStartOf="@id/text_view_five"
+        android:text="6"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_seven"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="#48D9AD"
+        android:gravity="center"
+        android:layout_below="@id/text_view_six"
+        android:layout_toStartOf="@id/text_view_six"
+        android:text="7"
+        android:textSize="50sp" />
+
+</RelativeLayout>
